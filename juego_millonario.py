@@ -25,6 +25,7 @@ class JuegoMillonario:
         for i in range(4):
             boton = tk.Button(master, text="", font=opciones_fuente, command=lambda i=i: self.seleccionar_respuesta(i))
             boton.pack(pady=5, fill=tk.X)
+            self.botones_opcion.append(boton)
         
         # Área de puntaje
         self.label_puntaje = tk.Label(master, text="Puntaje: 0", font=opciones_fuente, bg='light blue')
