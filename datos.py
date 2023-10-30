@@ -66,7 +66,7 @@ lista_preguntas.agregar({
 lista_preguntas.agregar({
     "texto": "¿Qué trilogía de las películas basadas en los cómics de Marvel recaudó más dinero en taquilla?",
     "opciones": ["Thor", "Capitán América", "Iron Man", "Wolverine"],
-    "respuesta": "Iron Man"
+    "respuesta": "Capitán América"
 })
 
 lista_preguntas.agregar({
