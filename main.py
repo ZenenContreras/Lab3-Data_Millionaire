@@ -9,7 +9,7 @@ def main():
     root.geometry("600x400")
     app = MenuPrincipal(root)
     root.mainloop()
-
+    
 if __name__ == "__main__":
     main()
     

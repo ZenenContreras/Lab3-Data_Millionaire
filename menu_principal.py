@@ -6,7 +6,7 @@ from instrucciones import Instrucciones
 class MenuPrincipal:
     def __init__(self, master):
         self.master = master
-        master.title("Menú Principal - Quién Quiere Ser Millonario")
+        master.title("Menú Principal - ¿Quién Quiere Ser Millonario?")
         master.geometry("600x400")
         self.centrar_ventana(600, 400)  # Llamas a la función para centrar la ventana
         master.resizable(False, False)
@@ -15,7 +15,7 @@ class MenuPrincipal:
         titulo_fuente = tkFont.Font(family="Helvetica", size=16, weight="bold")
         opciones_fuente = tkFont.Font(family="Helvetica", size=12)
 
-        self.label_titulo = tk.Label(master, text="Quién Quiere Ser Millonario", font=titulo_fuente, bg='light blue')
+        self.label_titulo = tk.Label(master, text="¿Quién Quiere Ser Millonario?", font=titulo_fuente, bg='light blue')
         self.label_titulo.pack(pady=50)
 
         self.boton_iniciar = tk.Button(master, text="Iniciar Juego", font=opciones_fuente, command=self.iniciar_juego)
